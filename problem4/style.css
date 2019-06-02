@@ -1,0 +1,53 @@
+form {
+	width: 800px;
+}
+
+.form-group {
+	display: flex;
+	align-items: center;
+  height: 100%;
+  margin-bottom: 10px; 
+}
+
+label {
+	width: 200px;
+}
+
+input, select {
+	width: 200px;
+	height: 25px;
+	border-radius: 3px;
+	border: 1px solid black;
+}
+
+.buttons {
+	display: flex;
+  justify-content: space-between;
+  height: 100%;
+  width: 400px;
+}
+
+#ok, #cancel {
+	width: 198px;	
+	height: 30px;
+	border-radius: 3px;
+}
+
+#ok {
+	background-color: green;
+	border: 1px solid green;
+}
+
+#cancel {
+	background-color: red;
+	border: 1px solid red;
+}
+
+.error input, .error textarea {
+  border: 1px solid red;
+}
+
+span {
+	color: red;
+	margin-left: 10px;
+}

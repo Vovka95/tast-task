@@ -1,0 +1,44 @@
+[
+	{
+		"id": 1,
+		"lable": "a",
+		"child": [
+			{
+				"id": 2,
+				"lable": "B",
+				"child": [
+					{
+						"id": 5,
+						"lable": "E"
+					},
+					{
+						"id": 6,
+						"lable": "F"
+					},
+					{
+						"id": 7,
+						"lable": "G"
+					}
+				]
+			},
+			{
+				"id": 3,
+				"lable": "C"
+			},
+			{
+				"id": 4,
+				"lable": "D",
+				"child": [
+					{
+						"id": 8,
+						"lable": "H"
+					},
+					{
+						"id": 9,
+						"lable": "I"
+					}
+				]
+			}
+		]
+	}
+]

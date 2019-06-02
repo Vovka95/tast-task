@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<title>Problem-4</title>
+</head>
+<body>
+
+	<form>
+  	<div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" maxlength="100" required>
+  </div>
+  <div class="form-group">
+    <label for="address-1">Address 1</label>
+    <input type="text" id="address-1" name="address" maxlength="100" required>
+  </div>
+  <div class="form-group">
+    <label for="address-2">Address 2</label>
+    <input type="text" id="address-2" maxlength="100">
+  </div>
+  <div class="form-group">
+    <label for="city">City</label>
+    <input type="text" id="city" name="city" maxlength="50" required>
+  </div>
+   <div class="form-group">
+    <label for="state">State</label>
+    <select id="state" name="state" maxlength="2" required>
+    	<option value="">-//-</option>
+      <option value="ua">Ukraine</option>
+      <option value="uk">United Kingdom</option>
+      <option value="fr">France</option>
+      <option value="pl">Poland</option>
+      <option value="ge">Germany</option>
+    </select>
+  </div>
+   <div class="form-group">
+    <label for="zip-code">Zip Code</label>
+    <input type="number" id="zip-code" name="zipCode"  maxlength="5" required>
+  </div>
+
+	<div class="buttons">
+		<input type="button" id="ok" value="Ok" onclick="validate(this.form)">
+  	<input type="button" id="cancel" value="Cancel" onclick="this.form.reset();">
+	</div>	
+
+</form>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
